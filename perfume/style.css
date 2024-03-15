@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rouge+Script&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rouge+Script&family=Young+Serif&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.container{
+    margin: 100px auto;
+    background-color: #fff;
+    display: flex;
+    width: 600px;
+}
+.image_container{
+    width: 300px;
+   
+}
+.image_container img{
+    width: 300px;
+    height: 590px;
+}
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.flex h1{
+    color: hsl(158, 36%, 37%);
+    font-family: fraunces;
+}
+.flex h6{
+     margin-top: 12px;
+
+}
+.info_container{
+    width: 50%;
+    margin: 40px;
+}
+.info_container h5{
+    font-family: montserrat;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+.info_container h1{
+    margin-bottom: 25px;
+}
+.info_container p{
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-family: montserrat;
+}
